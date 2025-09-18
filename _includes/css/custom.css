@@ -1,0 +1,133 @@
+.logo {
+    height: 3em;
+}
+
+.section {
+    width: 50%;
+}
+
+.row.two-column {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.image {
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.quote {
+    font-style: italic;
+    align-items: center;
+}
+
+section.hero {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    /* new new uncomment */
+    /* background-color: #{{ site.data.template.color.secondary }}50; */
+    /* old */
+    /* background-image: url('{{ site.baseurl }}/img/sardegna.jpg'); */
+    /* background-blend-mode: multiply; */
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /* new */
+    position: relative;
+}
+section.hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* new */
+    /* background-color: #{{ site.data.template.color.secondary }}50; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+section#next-trip::before {
+    /* background-image: url('{{ site.baseurl }}/img/sardegna.jpg'); */
+    background-image: url('{{ site.baseurl }}/img/sardegna-50opacity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* or 0.5 */
+    opacity: 1;
+    /* new new */
+    /* or primary? */
+    background-color: #{{ site.data.template.color.secondary }};
+    /* multiply, overlay, screen */
+    background-blend-mode: overlay;
+}
+section#testimonials-hero::before {
+    background-image: url('{{ site.baseurl }}/img/people-50opacity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    background-color: #{{ site.data.template.color.secondary }};
+    background-blend-mode: overlay;
+}
+
+section.hero .intro-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+section.hero .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+    /* font-style: italic; */
+    line-height: 22px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.inset-box {
+    /* position: relative; */
+    /* left: 50%; */
+    margin: 70px 20px;
+    padding: 10px;
+    background-color: #{{ site.data.template.color.light }};
+    color: black;
+    /* new */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.inset-box .inset-panel {
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+.inset-box .inset-image {
+    width: 50%;
+    padding: 10px;
+}
+
+ul {
+    /* TODO use svg without defined size instead */
+  /* list-style-image: url('img/heart.jpg'); */
+  list-style-type: disc;
+}
+
+.btn-primary {
+    padding: 10px 10px;
+}

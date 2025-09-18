@@ -1,11 +1,11 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Piemonte & Aosta
+subtitle: June 2025
 layout: default
-modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+modal-id: 3
+date: 2014-07-16
+img: piemonte.jpg
+thumbnail: piemonte-thumb.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

@@ -1,11 +1,11 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Sardinia
+subtitle: May 2024
 layout: default
-modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+modal-id: 4
+date: 2014-07-15
+img: sardegna.jpg
+thumbnail: sardegna-thumb.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
