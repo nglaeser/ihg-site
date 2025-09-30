@@ -213,12 +213,17 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #{{ site.data.template.color.primary }};
+}
+
 .navbar-default .nav li a {
     /* text-transform: uppercase; */
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    /* color: #fff; */
+    color: #{{ site.data.template.color.primary }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -266,6 +271,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-right a {
         color: #{{ site.data.template.color.primary }};
     }
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
         color: #fff;

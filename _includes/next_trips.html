@@ -17,6 +17,7 @@
         </div>
     </div>
     <div class="container next-trips">
+        <div class="row">
         {% assign num_trips = site.next_trips.size %}
         {% for trip in site.next_trips %}
         <div class="col-md-{{ 12 | divided_by: num_trips }} col-sm-{{ 12 | divided_by: num_trips }} portfolio-item">
@@ -33,11 +34,12 @@
                 <p class="text-muted">{{ trip.trip-date }}</p>
                 <br />
                 <div class="text-center">
-                    <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Join us!</a>
+                    <a href="#nextTripModal{{ trip.modal-id }}" class="btn btn-primary">View tour</a>
                 </div>
             </div>
         </div>
         {% endfor %}
+        </div>
         <!-- <div class="row inset-box">
             <div class="inset-image">
                 <img class="img-responsive img-centered" src="img/sicilia.jpg" alt="">
