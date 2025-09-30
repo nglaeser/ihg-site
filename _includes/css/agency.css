@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -16,6 +16,10 @@ body {
 
 .text-primary {
     color: #{{ site.data.template.color.primary }};
+}
+
+.text-light {
+    color: #{{ site.data.template.color.light }};
 }
 
 p {
@@ -180,6 +184,9 @@ fieldset[disabled] .btn-xl.active {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
+.navbar-default .navbar-brand img {
+    content: url('{{ site.baseurl }}/img/logos/IHG-bianco-trasparente2-crop.png');
+}
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -263,6 +270,10 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 3px;
         color: #fff;
     }
+    .navbar-default.navbar-shrink .navbar-brand img {
+        content: url('{{ site.baseurl }}/img/logos/IHG-positivo-trasparente2-crop.png');
+    }
+
 
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -277,6 +288,14 @@ header {
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
+
+    /* new */
+    /* background-color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .3); */
+    background-color: rgba({{ site.data.template.color.light | hex_to_rgb | join: ',' }}, .3);
+    /* background-color: rgba(33, 33, 33, .5); */
+    /* multiply, overlay, screen */
+    background-blend-mode: screen;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -302,7 +321,7 @@ header .intro-text .intro-heading {
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 75px;
 }
 
 @media(min-width:768px) {
@@ -316,7 +335,7 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         /* font-style: italic; */
-        line-height: 40px;
+        line-height: 65px;
     }
 
     header .intro-text .intro-heading {
@@ -325,7 +344,7 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 100px;
     }
 }
 
@@ -380,7 +399,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .6);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -851,12 +870,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: #{{ site.data.template.color.secondary }};
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: #{{ site.data.template.color.secondary }};
 }
 
 img::selection {

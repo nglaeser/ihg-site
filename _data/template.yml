@@ -9,6 +9,6 @@ color:
 
 # Font Families
 font:
-  primary: 'Garamond,Calibri,serif'
-  secondary: 'Garamond,Calibri,serif'
+  primary: '"Playfair Display",Garamond,Calibri,serif'
+  secondary: '"Playfair Display",Garamond,Calibri,serif'
   # secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'

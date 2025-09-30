@@ -1,64 +1,32 @@
-url: https://y7kim.github.io
+url: https://italyshiddengems.com
 baseurl:
 
 # Site settings
 title: Italy's Hidden Gems
-email: your-email@domain.com
+email: travel@italyshiddengems.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+# Additional collections (besides posts)
+collections:
+  next_trips:
+    output: true
+    permalink: /next_trips/:path/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: tripadvisor
+    url: https://www.tripadvisor.com/Attraction_Review-g187879-d27800411-Reviews-Italy_s_Hidden_Gems-Sardinia.html
+  - title: instagram
+    url: https://www.instagram.com/italyshiddengems/
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/lvinti85IHG
+  - title: substack
+    url: https://italyshiddengems.substack.com/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 4445 Corporation Ln STE 264
+  - line: Virginia Beach, VA 23462
 
 # Build settings
 markdown: kramdown
