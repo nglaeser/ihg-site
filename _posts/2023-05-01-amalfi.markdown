@@ -1,15 +1,13 @@
 ---
 title: Naples and the Amalfi Coast
-subtitle: May 2023
+trip-date: May 2016
 layout: default
 modal-id: 1
-date: 2014-07-18
 img: amalfi.jpg
 thumbnail: amalfi-thumb.jpg
 alt: image-alt
-project-date: May 2023
-duration: 12 nights
-group-size: 10 people
+duration: 14 days
+group-size: 8 travelers
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---

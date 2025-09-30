@@ -1,15 +1,13 @@
 ---
 title: Piemonte & Aosta
-subtitle: June 2025
+trip-date: June 2025
 layout: default
 modal-id: 3
-date: 2014-07-16
 img: piemonte.jpg
 thumbnail: piemonte-thumb.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+duration: 13 days
+group-size: 8-12 travelers
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---

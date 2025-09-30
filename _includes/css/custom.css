@@ -122,12 +122,6 @@ section.hero .intro-text .intro-lead-in {
     padding: 10px;
 }
 
-ul {
-    /* TODO use svg without defined size instead */
-  /* list-style-image: url('img/heart.jpg'); */
-  list-style-type: disc;
-}
-
 .btn-primary {
     padding: 10px 10px;
 }
@@ -252,10 +246,10 @@ section#testimonials {
     padding: 0 1em;
 }
 
-#next-trip li {
+.modal-body .content li {
     list-style: none;
 }
-#next-trip li::before {
+.modal-body .content li::before {
     content: '';
     display: inline-block;
     margin-right: 10px;

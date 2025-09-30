@@ -8,34 +8,36 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-left">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
-            vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed
-            diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl
-            malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora
-            torquent per conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
+                vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed
+                diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl
+                malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora
+                torquent per conubia nostra inceptos himenaeos.
             </div>
         </div>
     </div>
     <div class="container next-trips">
         {% assign num_trips = site.next_trips.size %}
+        {% for trip in site.next_trips %}
         <div class="col-md-{{ 12 | divided_by: num_trips }} col-sm-{{ 12 | divided_by: num_trips }} portfolio-item">
-            <a href="#nextTripModal" class="portfolio-link" data-toggle="modal">
+            <a href="#nextTripModal{{ trip.modal-id }}" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                         <i class="fa fa-plus fa-3x"></i>
                     </div>
                 </div>
-                <img src="img/sicilia-thumb.jpg" class="img-responsive img-centered" alt="">
+                <img src="img/portfolio/{{ trip.thumbnail }}" class="img-responsive img-centered" alt="">
             </a>
             <div class="portfolio-caption">
-                <h4>Sicily: Crossroads of the Mediterranean</h4>
-                <p class="text-muted">May 2026</p>
-                <br/>
+                <h4>{{ trip.title }}</h4>
+                <p class="text-muted">{{ trip.trip-date }}</p>
+                <br />
                 <div class="text-center">
-                    <a href="https://buy.stripe.com/4gw01bacf0M03F614m" class="btn btn-primary">Join us!</a>
+                    <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Join us!</a>
                 </div>
             </div>
         </div>
+        {% endfor %}
         <!-- <div class="row inset-box">
             <div class="inset-image">
                 <img class="img-responsive img-centered" src="img/sicilia.jpg" alt="">
