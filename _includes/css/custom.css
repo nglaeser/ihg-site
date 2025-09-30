@@ -241,9 +241,9 @@ section#testimonials {
 
 .accent {
     color: #{{ site.data.template.color.accent }};
-    background: rgba({{ site.data.template.color.light | hex_to_rgb | join: ',' }}, .3);
-    font-style: italic;
-    padding: 0 .5em;
+    /* background: rgba({{ site.data.template.color.light | hex_to_rgb | join: ',' }}, .3); */
+    /* font-style: italic; */
+    /* padding: 0 .5em; */
 }
 
 .modal-body .content li {
