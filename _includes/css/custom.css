@@ -1,14 +1,9 @@
 .navbar-brand {
     padding-top: 0px;
-    margin-top: -4px;
 }
 
 .logo {
     height: 3em;
-}
-
-.section {
-    width: 50%;
 }
 
 .row.two-column {
@@ -290,9 +285,15 @@ section#testimonials {
 
 /* Small devices (tablets, up to 768px) */
 @media(min-width:768px) {
-.container.next-trips {
-    width: 50%;
-}
+    .container.next-trips {
+        width: 50%;
+    }
+    .navbar-brand {
+        margin-top: -4px;
+    }
+    .section {
+        width: 50%;
+    }
 }
 .container.next-trips {
     padding-top: 35px;

@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -185,7 +185,7 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 .navbar-default .navbar-brand img {
-    content: url('{{ site.baseurl }}/img/logos/IHG-bianco-trasparente2-crop.png');
+    content: url('{{ site.baseurl }}/img/logos/IHG-positivo-trasparente2-crop.png');
 }
 
 .navbar-default .navbar-brand:hover,
@@ -269,6 +269,9 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
         color: #fff;
+    }
+    .navbar-default .navbar-brand img {
+        content: url('{{ site.baseurl }}/img/logos/IHG-bianco-trasparente2-crop.png');
     }
     .navbar-default.navbar-shrink .navbar-brand img {
         content: url('{{ site.baseurl }}/img/logos/IHG-positivo-trasparente2-crop.png');
