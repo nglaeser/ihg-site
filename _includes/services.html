@@ -1,5 +1,5 @@
 <!-- Services Section -->
-<section id="services">
+<section id="about">
     <div class="container section">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -10,61 +10,85 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-        <!-- <div class="row text-center two-column"> -->
-            <!-- TODO only two-column if viewport large enough -->
-            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-            pellentesque
-            sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-            tempor.
-            Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia
-            integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per
-            conubia nostra inceptos himenaeos.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
+                pellentesque
+                sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
+                tempor.
+                Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia
+                integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per
+                conubia nostra inceptos himenaeos.
+            </div>
         </div>
-        </div>
-        <!-- <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div> -->
         <div class="row image">
             <img src="../img/people.png" />
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-        <h4>Passionate about making each trip unique, just for you</h4>
-        <div class="quote">
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
-            pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
-            urna
-            tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada
-            lacinia
-            integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per
-            conubia
-            nostra inceptos himenaeos."
-        </div>
-        </div>
+                <h4>Passionate about making each trip unique, just for you</h4>
+                <div class="quote">
+                    "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae
+                    pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed
+                    diam
+                    urna
+                    tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada
+                    lacinia
+                    integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per
+                    conubia
+                    nostra inceptos himenaeos."
+                </div>
+            </div>
         </div>
         <div class="row text-right">
             <img class="signature" src="../img/signature.png" />
         </div>
+        <div class="row newsletter">
+            <div class="col-lg-12 text-center">
+                <div class="content">
+                    <form method="POST" id="zcampaignOptinForm"
+                        action="https://zgnp-zngp.maillist-manage.com/weboptin.zc" target="_zcSignup">
+                        <h2>Join our newsletter!</h2>
+                        <div class="input-group">
+                            <div class="SIGNUP_FLD">
+                                <input type="email" class="form-control" placeholder="Enter your email"
+                                    changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
+                            </div>
+                            <span class="SIGNUP_FLD input-group-btn">
+                                <!-- zoho campaigns  -->
+                                <!-- <input type="button" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Join Now"> -->
+                                <!-- my prev version -->
+                                <!-- <button class="btn" type="submit" onclick="saveOptin(this,false,function(){},'#sf3zfad2aa0edb577e46410e9d044b84affff295db22edf5f0d11e896b0bba2e3e69[data-type=&quot;signupform_0&quot;] ',event);">Subscribe</button> -->
+                                <input type="button" class="btn" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin"
+                                    value="Subscribe">
+                            </span>
+                        </div>
+                        <input type="hidden" id="fieldBorder" value="">
+                        <input type="hidden" id="submitType" name="submitType" value="optinCustomView">
+                        <input type="hidden" id="emailReportId" name="emailReportId" value="">
+                        <input type="hidden" id="formType" name="formType" value="QuickForm">
+                        <input type="hidden" name="zx" id="cmpZuid" value="135a37543">
+                        <input type="hidden" name="zcvers" value="3.0">
+                        <input type="hidden" name="oldListIds" id="allCheckedListIds" value="">
+                        <input type="hidden" id="mode" name="mode" value="OptinCreateView">
+                        <input type="hidden" id="zcld" name="zcld" value="11555b8c40db66133">
+                        <input type="hidden" id="zctd" name="zctd" value="11555b8c40db65f79">
+                        <input type="hidden" id="document_domain" value="">
+                        <input type="hidden" id="zc_Url" value="zgnp-zngp.maillist-manage.com">
+                        <input type="hidden" id="new_optin_response_in" value="0">
+                        <input type="hidden" id="duplicate_optin_response_in" value="0">
+                        <input type="hidden" name="zc_trackCode" id="zc_trackCode" value="ZCFORMVIEW">
+                        <input type="hidden" id="zc_formIx" name="zc_formIx"
+                            value="3zfad2aa0edb577e46410e9d044b84affff295db22edf5f0d11e896b0bba2e3e69">
+                        <input type="hidden" id="viewFrom" value="URL_ACTION">
+                        <span style="display: none" id="dt_CONTACT_EMAIL">1,true,6,Contact Email,2</span>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<script>
+	function zcScptlessSubmit(parentNode){
+		if(parentNode.querySelector("#zc_spmSubmit")){parentNode.querySelector("#zc_spmSubmit").remove();}parentNode.submit();
+	}
+</script>

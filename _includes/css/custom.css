@@ -57,7 +57,7 @@ section.hero::before {
     height: 100%;
     z-index: -1;
 }
-section#next-trip::before {
+section#next-trips::before {
     /* background-image: url('{{ site.baseurl }}/img/sardegna.jpg'); */
     background-image: url('{{ site.baseurl }}/img/sardegna-50opacity.jpg');
     background-repeat: no-repeat;
@@ -241,9 +241,9 @@ section#testimonials {
 
 .accent {
     color: #{{ site.data.template.color.accent }};
-    background: rgba({{ site.data.template.color.light | hex_to_rgb | join: ',' }}, .6);
+    background: rgba({{ site.data.template.color.light | hex_to_rgb | join: ',' }}, .3);
     font-style: italic;
-    padding: 0 1em;
+    padding: 0 .5em;
 }
 
 .modal-body .content li {
@@ -289,6 +289,6 @@ section#testimonials {
         width: 50%;
     }
 }
-.container.next-trips {
+.container.next-trips, .newsletter {
     padding-top: 35px;
 }

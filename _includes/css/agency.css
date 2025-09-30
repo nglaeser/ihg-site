@@ -192,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 @media(min-width:768px) {
@@ -297,13 +297,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    /* background-image: url('{{ site.baseurl }}/img/header-bg.jpg'); */
+    background-image: url('{{ site.baseurl }}/img/header-bg-50opacity.jpg');
     background-position: center center;
     background-repeat: none;
 
     /* new */
     /* background-color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .3); */
-    background-color: rgba({{ site.data.template.color.light | hex_to_rgb | join: ',' }}, .3);
+    background-color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .5);
     /* background-color: rgba(33, 33, 33, .5); */
     /* multiply, overlay, screen */
     background-blend-mode: screen;
@@ -391,13 +392,13 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item,
-#next-trip .portfolio-item {
+#next-trips .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link,
-#next-trip .portfolio-item .portfolio-link {
+#next-trips .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
@@ -405,7 +406,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover,
-#next-trip .portfolio-item .portfolio-link .portfolio-hover {
+#next-trips .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -418,12 +419,12 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover,
-#next-trip .portfolio-item .portfolio-link .portfolio-hover:hover {
+#next-trips .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
-#next-trip .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#next-trips .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -435,19 +436,19 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i,
-#next-trip .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#next-trips .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4,
-#next-trip .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#next-trip .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#next-trips .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#next-trips .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
 #portfolio .portfolio-item .portfolio-caption,
-#next-trip .portfolio-item .portfolio-caption {
+#next-trips .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -456,13 +457,13 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption h4,
-#next-trip .portfolio-item .portfolio-caption h4 {
+#next-trips .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
 #portfolio .portfolio-item .portfolio-caption p,
-#next-trip .portfolio-item .portfolio-caption p {
+#next-trips .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
@@ -475,7 +476,7 @@ section h3.section-subheading {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item,
-    #next-trip .portfolio-item {
+    #next-trips .portfolio-item {
         margin: 0 0 30px;
     }
 }
