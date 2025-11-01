@@ -349,7 +349,6 @@ figure img {
     margin: 25px auto;
 }
 #philosophy .img-responsive, 
-#about .img-responsive, 
-{
+#about .img-responsive {
     padding: 10px 0;
 }
