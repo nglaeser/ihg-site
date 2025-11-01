@@ -298,16 +298,19 @@ header {
     color: #fff;
     background-attachment: scroll;
     /* background-image: url('{{ site.baseurl }}/img/header-bg.jpg'); */
-    background-image: url('{{ site.baseurl }}/img/header-bg-50opacity.jpg');
+    /* background-image: url('{{ site.baseurl }}/img/header-bg-50opacity.jpg'); */
+    /* background-image: url('{{ site.baseurl }}/img/header-bg-5.jpg'); */
+    background-image: url('{{ site.baseurl }}/img/header-bg-5-50opacity.jpg');
     background-position: center center;
     background-repeat: none;
 
     /* new */
     /* background-color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .3); */
-    background-color: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .5);
+    background-color: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .7);
     /* background-color: rgba(33, 33, 33, .5); */
     /* multiply, overlay, screen */
     background-blend-mode: screen;
+    /* background-blend-mode: overlay; */
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -355,8 +358,9 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         /* text-transform: uppercase; */
         /* font-family: {{ site.data.template.font.primary }}; */
-        /* font-family: "Dancing Script", cursive; */
-        font-family: "Parisienne", cursive;
+        font-family: "Dancing Script", cursive;
+        /* font-family: "Parisienne", cursive; */
+        /* font-family: "MonteCarlo", cursive; */
         font-size: 70px;
         font-weight: 700;
         line-height: 100px;
@@ -601,10 +605,15 @@ aside.clients img {
 }
 
 section#contact {
-    /* background-color: #222; */
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center;
+    background-color: #{{ site.data.template.color.primary }};
+    /* background-image: url('{{ site.baseurl }}/img/contact-bg.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
 }
 
 section#contact .section-heading {

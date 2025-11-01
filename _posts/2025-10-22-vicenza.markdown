@@ -1,0 +1,17 @@
+---
+title: Vicenza & Palladian Villas
+trip-date: October 2025
+layout: default
+modal-id: 5
+img: veneto.jpg
+thumbnail: veneto-thumb.jpg
+img-copyright: © <a href="https://commons.wikimedia.org/wiki/File:Larotonda2009.JPG">La Rotonda</a> by Marco Bagarella, licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+alt: image-alt
+duration: 3 days
+group-size: 2 travelers (custom trip)
+description: A visit to the UNESCO World Heritage Site “City of Vicenza and the Palladian Villas of the Veneto”, whose immense cultural influence can be seen even across the Atlantic Ocean in the architecture of the early United States, such as Thomas Jefferson's iconic home of Monticello.
+---
+
+Trip highlights:
+- Private walking tour of **Vicenza**, including Palladio's Teatro Olimpico
+- Visits to the most beautiful Palladian villas, including two villas not usually open to the public

@@ -1,0 +1,19 @@
+---
+title: Marche
+trip-date: May 2023
+layout: default
+modal-id: 2
+img: marche.jpg
+thumbnail: marche-thumb.jpg
+alt: image-alt
+duration: 15 days
+group-size: 10 travelers
+description: The Marche is still a largely unknown region, even within Italy, and yet it is connected to a wealth of its cultural and artistic heritage. The birthplace of emperors and composers, it hosts not only artistic marvels but also natural preserves and seaside attractions.
+---
+
+Trip highlights:
+- Guided tours of the main cities and towns, meals of finely prepared regional dishes, and tastings of local products
+- **Nature walking tour** in the Conero Regional Park with a certified naturalist guide
+- Sensorial experience with an **artisan shoemaker**
+- "Aperitivo in musica": half-day event with live traditional music, dances, and a local meal
+- Farewell party with in a **medieval hamlet** nestled in the woods around an 11th century watchtower

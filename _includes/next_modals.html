@@ -15,8 +15,13 @@
                     <div class="modal-body">
                         <h2>{{ trip.title }}</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/{{ trip.img }}" class="img-responsive img-centered"
-                            alt="{{ trip.alt }}">
+                        <figure>
+                            <img src="img/portfolio/{{ trip.img }}" class="img-responsive img-centered"
+                                alt="{{ trip.alt }}">
+                            {% if trip.img-copyright %}
+                            <figcaption class="img-copyright"><a href="https://commons.wikimedia.org/wiki/File:Larotonda2009.JPG">© La Rotonda</a> by Marco Bagarella, licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption>
+                            {% endif %}
+                        </figure>
                         <ul class="list-inline item-details">
                             <li><strong>Duration:</strong>
                                 {{ trip.duration }}
@@ -28,7 +33,9 @@
                                 {{ trip.group-size }}
                             </li>
                         </ul>
+                        <div class="text-left">
                         <p>{{ trip.description }}</p>
+                        </div>
                         <div class="content text-left">
                             {{ trip.content }}
                         </div>

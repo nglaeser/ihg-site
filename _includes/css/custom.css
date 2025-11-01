@@ -59,7 +59,7 @@ section.hero::before {
 }
 section#next-trips::before {
     /* background-image: url('{{ site.baseurl }}/img/sardegna.jpg'); */
-    background-image: url('{{ site.baseurl }}/img/sardegna-50opacity.jpg');
+    background-image: url('{{ site.baseurl }}/img/next-trips-bg-50.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -72,13 +72,16 @@ section#next-trips::before {
     background-blend-mode: overlay;
 }
 section#testimonials-hero::before {
-    background-image: url('{{ site.baseurl }}/img/people-50opacity.jpg');
+    background-image: url('{{ site.baseurl }}/img/testimonials-bg-50.jpg');
+    /* background-image: url('{{ site.baseurl }}/img/testimonials-bg-30.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    opacity: 1;
+    /* opacity: 1; */
+    opacity: .8;
     background-color: #{{ site.data.template.color.secondary }};
     background-blend-mode: overlay;
+    /* background-blend-mode: screen; */
 }
 
 section.hero .section-subheading {
@@ -265,6 +268,9 @@ section#testimonials {
     /* padding: 0 .5em; */
 }
 
+.modal-body .content p {
+    margin-bottom: 0px;
+}
 .modal-body .content li {
     list-style: none;
 }
@@ -310,4 +316,17 @@ section#testimonials {
 }
 .container.next-trips, .newsletter {
     padding-top: 35px;
+}
+
+/* figure copyright caption */
+figure {
+    margin-bottom: 30px;
+}
+figure img {
+    margin-bottom: 0px !important;
+}
+
+#contact .btn {
+    background-color: #{{ site.data.template.color.secondary }};
+    border-color: #{{ site.data.template.color.secondary }};
 }

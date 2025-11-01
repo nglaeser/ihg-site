@@ -1,0 +1,20 @@
+---
+title: Piemonte & Aosta Valley
+trip-date: June 2025
+layout: default
+modal-id: 4
+img: piemonte.jpg
+thumbnail: piemonte-thumb.jpg
+alt: image-alt
+duration: 13 days
+group-size: 8-12 travelers
+description: Nestled at the foot of the Alps, Piemonte is full of a rich culinary and cultural heritage as the home of Turin, unified Italy's first and royal capital. The surrounding area of rolling hills is a wine- and hazelnut-lover's paradise, while the mountaineers among us will feel right at home in the neighboring Aosta Valley's alpine landscapes.
+
+---
+
+Trip highlights:
+- Hands-on experience at the **Lavazza coffee museum**
+- **Cooking class** during which we’ll create (and enjoy!) a 3-course dinner
+- Visit to the **Langhe wine region**, a UNESCO World Heritage Site
+- Optional expedition on the **panoramic SkyWay** to a summit near Mont Blanc, the highest peak in Western Europe
+- **Private cruise** of Lake Maggiore with visit to the islets of Isola Bella and Isola Madre

@@ -1,0 +1,21 @@
+---
+title: Naples, Capri, and the Amalfi Coast
+trip-date: May 2016
+layout: default
+modal-id: 1
+img: amalfi.jpg
+thumbnail: amalfi-thumb.jpg
+img-copyright: © <a href="https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_75_(50558355441).jpg">Amalfi Coast (Italy, October 2020)</a> by Bruno Rijsman, licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
+alt: image-alt
+duration: 14 days
+group-size: 8 travelers
+description: When we organized this tour in 2016, Naples was still a city most travel companies avoided, mainly considered a place to fly to and to leave as soon as possible in order to visit Pompeii, Capri and Sorrento. My guests trusted me, and together we explored the hidden beauty of Naples and its surroundings that the world had mostly overlooked. Today, Naples has become a major tourist attraction, visited yearly by 12 million Italian and foreign tourists.
+---
+
+Trip highlights:
+- Sightseeing tour of **Naples** and dinner at a local home
+- Cruise to **Capri** and overnight stay on our own galleon
+- Tour of lemon grove and making of **limoncello**
+- Visit to a **shipyard** with introduction to the traditional boatbuilding techniques of Sorrento
+- Trip to the UNESCO World Heritage Site of **Paestum**, with excavations and Archeological Museum
+- Guided tour of a **mozzarella cheese factory**

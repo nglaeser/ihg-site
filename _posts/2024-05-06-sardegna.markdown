@@ -1,0 +1,19 @@
+---
+title: Sardinia
+trip-date: May/June 2024
+layout: default
+modal-id: 3
+img: sardegna.jpg
+thumbnail: sardegna-thumb.jpg
+alt: image-alt
+duration: 15 days
+group-size: 10-14 travelers
+description: "Sardinia is a world in itself, with its own language, culture, food, and traditions. Home to a variety of ecosystems, languages and landscapes ranging from pristine beaches to rolling hills and towering mountains, Sardinia has been dubbed a micro-continent. Slow down and appreciate beauty, nature, good company, and the delights of a rich culinary tradition: toasting with a hearty glass of Cannonau red wine, you’ll find it easy to understand why Sardinians have the healthiest, longest lifespan of any country on Earth!"
+---
+
+Trip highlights:
+- Visit to the UNESCO World Heritage Site of **Barumini**, the most complex nuraghe in Sardinia
+- Visit to the Phoenician city of **Nora**
+- **Sardinian honey** presentation and tasting
+- Option to attend an evening performance at the **Teatro Lirico di Cagliari**
+- **Private boat trip** along the stunning coastline around Alghero

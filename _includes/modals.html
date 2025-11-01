@@ -15,9 +15,13 @@
                     <div class="modal-body">
                         <h2>{{ post.title }}</h2>
                         <hr class="star-primary">
-                        <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered"
-                            alt="{{ post.alt }}">
-                        <p>{{ post.description }}</p>
+                        <figure>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered"
+                                alt="{{ post.alt }}">
+                            {% if post.img-copyright %}
+                                {{ post.img-copyright }}
+                            {% endif %}
+                        </figure>
                         <ul class="list-inline item-details">
                             <li><strong>Duration:</strong>
                                 {{ post.duration }}
@@ -29,6 +33,12 @@
                                 {{ post.group-size }}
                             </li>
                         </ul>
+                        <div class="text-left">
+                        <p>{{ post.description }}</p>
+                        </div>
+                        <div class="content text-left">
+                            {{ post.content }}
+                        </div>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
                             Close</button>
                     </div>
