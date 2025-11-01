@@ -3,9 +3,8 @@ title: Vicenza & Palladian Villas
 trip-date: October 2025
 layout: default
 modal-id: 5
-img: veneto.jpg
-thumbnail: veneto-thumb.jpg
-img-copyright: © <a href="https://commons.wikimedia.org/wiki/File:Larotonda2009.JPG">La Rotonda</a> by Marco Bagarella, licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+img: vicenza.jpg
+thumbnail: vicenza-thumb.jpg
 alt: image-alt
 duration: 3 days
 group-size: 2 travelers (custom trip)

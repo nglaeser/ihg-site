@@ -42,7 +42,14 @@
                         <!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
                             Close</button> -->
                         <br />
-                        <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Reserve your spot!</a>
+                        {% if trip.sign-up %}
+                            <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Reserve your spot!</a>
+                        {% else %}
+                        <div class="content text-left">
+                            <h5>Join our mailing list to be alerted when sign-ups open for this trip:</h5>
+                            {% include subscribe.html %}
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>

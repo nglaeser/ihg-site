@@ -76,7 +76,8 @@ section#testimonials-hero::before {
     /* background-image: url('{{ site.baseurl }}/img/testimonials-bg-30.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
+    background-position: bottom;
     /* opacity: 1; */
     opacity: .8;
     background-color: #{{ site.data.template.color.secondary }};
@@ -137,6 +138,12 @@ section#testimonials {
     padding: 0px 0px;
     padding-bottom: 50px;
 }
+#testimonials {
+    background: white;
+    color: black;
+    /* width: 100%; */
+    margin: 50px auto;
+}
 
 /***** quote carousel *****/
 /* carousel */
@@ -189,7 +196,7 @@ section#testimonials {
 }
 /* End carousel */
 
-.item blockquote, #about blockquote {
+.item blockquote, #philosophy blockquote {
     border-left: none; 
     margin: 0;
 }
@@ -199,7 +206,7 @@ section#testimonials {
 }
 
 .item blockquote p:before,
-#about blockquote p:before {
+#philosophy blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
     float: left;
@@ -207,14 +214,14 @@ section#testimonials {
     color: #{{ site.data.template.color.primary }};
 }
 
-#about blockquote p:before {
+#philosophy blockquote p:before {
     font-size: 20px;
 }
-#about blockquote {
+#philosophy blockquote {
     margin-top: 2em;
 }
 @media(min-width:768px) {
-    #about blockquote {
+    #philosophy blockquote {
         padding: 0 60px;
     }
 }
@@ -329,4 +336,16 @@ figure img {
 #contact .btn {
     background-color: #{{ site.data.template.color.secondary }};
     border-color: #{{ site.data.template.color.secondary }};
+}
+
+.bio-name {
+    color: #{{ site.data.template.color.primary }};
+    font-size: 19px;
+    font-weight: 700;
+}
+.bio {
+    margin: 25px auto;
+}
+.bio .img-responsive {
+    padding-top: 10px;
 }

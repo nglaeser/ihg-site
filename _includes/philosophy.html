@@ -1,0 +1,63 @@
+<!-- Services Section -->
+<section id="philosophy">
+    <div class="container section">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">We won’t take you to Rome, Florence or Venice...
+                </h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                ...because we want to share “our” Italy with you instead: the less-known places that intrigue us, the people who make up our incredibly diverse country, the delicious foods that trace their roots to our Greek, Roman, Arabic, Spanish, French, and barbarian ancestors, and to the foreign cultures who made their home in the Bel Paese throughout the centuries. Because Italy is not one country but many, and each region &mdash; each village! &mdash; has its own unique culture, foods and traditions to discover and enjoy. 
+                <br/><br/>
+                So, by all means, visit the Colosseum, marvel at Michelangelo’s David, and take a gondola tour on the Canal Grande. 
+                <br/><br/>
+                Then come with us to see “our” Italy. We’ll be here, ready to surprise you.
+            </div>
+            <div class="col-lg-4">
+                <img class="img-responsive" src="../img/laura_livia.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <blockquote>
+                <div class="quote text-center">
+                    <p>Living over three decades abroad &mdash; first in Germany, then in the United States &mdash; has gifted me with new eyes through which I can see Italy both as a native Italian, and as an admiring foreigner. We Italians are used to the beauty surrounding us, to the point that we often don’t see it anymore. The first tour I created for my American guests has made me keenly aware of the richness of my home country, sparking the unquenchable curiosity and awe behind each and every one of my tours.</p>
+                </div>
+                </blockquote>
+            </div>
+            <div class="col-lg-12 text-right">
+                <img class="signature" src="../img/signature.png" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-left newsletter">
+                <div class="content">
+                    <h3>Join our mailing list!</h3>
+                    {% include subscribe.html %}
+                </div>
+            </div>
+            <div class="col-lg-12 text-left social">
+                <h3>Or follow us on social media:</h3>
+                <ul class="list-inline social-buttons text-center">
+                    {% for network in site.social %}
+                    {% if network.title == "substack" %}
+                        <li><a target="_blank" href="{{ network.url }}"><i class="bi bi-{{ network.title }}"></i></a>
+                    {% else %}
+                        <li><a target="_blank" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+	function zcScptlessSubmit(parentNode){
+		if(parentNode.querySelector("#zc_spmSubmit")){parentNode.querySelector("#zc_spmSubmit").remove();}parentNode.submit();
+	}
+</script>

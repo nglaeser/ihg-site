@@ -8,7 +8,7 @@ thumbnail: piemonte-thumb.jpg
 alt: image-alt
 duration: 13 days
 group-size: 8-12 travelers
-description: Nestled at the foot of the Alps, Piemonte is full of a rich culinary and cultural heritage as the home of Turin, unified Italy's first and royal capital. The surrounding area of rolling hills is a wine- and hazelnut-lover's paradise, while the mountaineers among us will feel right at home in the neighboring Aosta Valley's alpine landscapes.
+description: Nestled at the foot of the Alps, Piemonte is full of a rich culinary and cultural heritage, in part due to the presence of Turin, unified Italy's first capital and royal seat. The surrounding area of rolling hills is a wine- and hazelnut-lover's paradise, while the mountaineers among us will feel right at home in the neighboring Aosta Valley's alpine landscapes.
 
 ---
 
