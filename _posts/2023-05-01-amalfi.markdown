@@ -1,5 +1,5 @@
 ---
-title: Naples and the Amalfi Coast
+title: Naples, Capri, and the Amalfi Coast
 trip-date: May 2016
 layout: default
 modal-id: 1

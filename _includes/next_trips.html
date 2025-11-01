@@ -3,10 +3,11 @@
     <div class="container section">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="intro-text">Our upcoming trips</h2>
+                <h2 class="section-heading">Our upcoming trips</h2>
+                <h3 class="section-subheading text-muted">Come join us on one of our exciting trips in the 2026 season!</h3>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 text-left">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien
                 vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed
@@ -14,7 +15,7 @@
                 malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora
                 torquent per conubia nostra inceptos himenaeos.
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="container next-trips">
         <div class="row">
@@ -34,7 +35,7 @@
                 <p class="text-muted">{{ trip.trip-date }}</p>
                 <br />
                 <div class="text-center">
-                    <a href="#nextTripModal{{ trip.modal-id }}" class="btn btn-primary">View tour</a>
+                    <a href="#nextTripModal{{ trip.modal-id }}" class="btn btn-primary" data-toggle="modal">View tour</a>
                 </div>
             </div>
         </div>

@@ -81,13 +81,17 @@ section#testimonials-hero::before {
     background-blend-mode: overlay;
 }
 
-section.hero .intro-text {
-    padding-top: 50px;
-    padding-bottom: 50px;
+section.hero .section-subheading {
     color: white;
 }
 
-section.hero .intro-text .intro-lead-in {
+section.hero .section-heading {
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    color: white;
+}
+
+section.hero .section-heading .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
@@ -182,7 +186,7 @@ section#testimonials {
 }
 /* End carousel */
 
-.item blockquote {
+.item blockquote, #about blockquote {
     border-left: none; 
     margin: 0;
 }
@@ -191,12 +195,27 @@ section#testimonials {
     margin-bottom: 10px;
 }
 
-.item blockquote p:before {
+.item blockquote p:before,
+#about blockquote p:before {
     content: "\f10d";
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+    color: #{{ site.data.template.color.primary }};
 }
+
+#about blockquote p:before {
+    font-size: 20px;
+}
+#about blockquote {
+    margin-top: 2em;
+}
+@media(min-width:768px) {
+    #about blockquote {
+        padding: 0 60px;
+    }
+}
+
 
 
 
