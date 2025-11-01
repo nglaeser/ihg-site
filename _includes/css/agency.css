@@ -422,6 +422,8 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    /* 60% opacity is 99 in hex, 50% is 80 */
+    background: #{{ site.data.template.color.secondary }}80; /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .6);
 }
 

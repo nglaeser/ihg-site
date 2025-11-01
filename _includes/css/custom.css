@@ -348,6 +348,8 @@ figure img {
 .bio {
     margin: 25px auto;
 }
-.img-responsive {
+#philosophy .img-responsive, 
+#about .img-responsive, 
+{
     padding: 10px 0;
 }
