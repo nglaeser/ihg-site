@@ -134,7 +134,7 @@ section.hero .section-heading .intro-lead-in {
     padding: 10px 10px;
 }
 
-section#testimonials {
+#testimonials {
     padding: 0px 0px;
     padding-bottom: 50px;
 }
@@ -157,7 +157,8 @@ section#testimonials {
 #quote-carousel .carousel-control
 {
   background: none;
-  color: #222;
+  /* color: #222; */
+  color: #{{ site.data.template.color.primary }};
   font-size: 2.3em;
   text-shadow: none;
   margin-top: 30px;
@@ -184,6 +185,7 @@ section#testimonials {
 #quote-carousel .carousel-indicators li 
 {
   /* background: #c0c0c0; */
+
 }
 #quote-carousel .carousel-indicators .active 
 {
@@ -346,6 +348,6 @@ figure img {
 .bio {
     margin: 25px auto;
 }
-.bio .img-responsive {
-    padding-top: 10px;
+.img-responsive {
+    padding: 10px 0;
 }
