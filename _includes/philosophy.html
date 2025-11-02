@@ -1,6 +1,6 @@
 <!-- Services Section -->
 <section id="philosophy">
-    <div class="container section">
+    <div class="container-fluid section">
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">We won’t take you to Rome, Florence or Venice...
@@ -28,6 +28,8 @@
                 </div>
                 </blockquote>
             </div>
+        </div>
+        <div class="row">
             <div class="col-lg-12 text-right">
                 <img class="signature" src="img/signature.png" />
             </div>
@@ -39,9 +41,15 @@
                     {% include subscribe.html %}
                 </div>
             </div>
-            <div class="col-lg-12 text-left social">
+        </div>
+        <div class="row social">
+            <div class="col-lg-12 text-left">
                 <h3>Or follow us on social media:</h3>
-                <ul class="list-inline social-buttons text-center">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <ul class="list-inline social-buttons">
                     {% for network in site.social %}
                     {% if network.title == "substack" %}
                         <li><a target="_blank" href="{{ network.url }}"><i class="bi bi-{{ network.title }}"></i></a>
