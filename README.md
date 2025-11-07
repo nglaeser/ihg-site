@@ -1,30 +1,31 @@
-Agency Jekyll theme
+Italy's Hidden Gems website
 ====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Live at [italyshiddengems.com](https://italyshiddengems.com). Based on the [Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme).
 
 # How to use
 
-###Portfolio 
+### Trip Data
+Each trip has its own [Markdown](https://www.markdownguide.org/) file with the trip information to be displayed on the website.
 
-Portfolio projects are in '/_posts'
+- Previous trips are in `/_posts`
+- Upcoming trips are in `/_next_trips`
+- A template file for new trips is in `/_drafts`
 
-Images are in '/img/portfolio'
+Trip images are in `/img/trips`. Other images are either directly in `/img` or in another relevant subdirectory.
 
-###About
+### Demo
 
-Images are in '/img/about/'
+To view the site locally, run
+```
+bundle exec jekyll serve
+```
+in the terminal and navigate to localhost.
 
-###Team
+### Publishing the site
 
-Team members and info are in '_config.yml'
+This is a Jekyll site. Jekyll takes care of turning the markdown data, HTML templates, etc. into a classic HTML site, which is placed into the generated directory `_site`. 
 
-Images are in '/img/team/'
+To publish the site on third-party hosting provider, copy the contents of `_site` to the HTML directory of the provider.
 
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+For more details, read the [Jekyll documentation](http://jekyllrb.com/).
