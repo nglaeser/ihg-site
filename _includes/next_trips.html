@@ -34,10 +34,6 @@
                 <h4>{{ trip.title }}</h4>
                 <p class="text-muted">{{ trip.trip-date }}</p>
                 <br />
-                {% if trip.modal-id == 2 %}
-                <!-- extra line of padding for umbria -->
-                <br/>
-                {% endif %}
                 <div class="text-center">
                     <a href="#nextTripModal{{ trip.modal-id }}" class="btn btn-primary" data-toggle="modal">View tour</a>
                 </div>
