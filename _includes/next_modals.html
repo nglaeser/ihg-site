@@ -16,10 +16,10 @@
                         <h2>{{ trip.title }}</h2>
                         <hr class="star-primary">
                         <figure>
-                            <img src="img/portfolio/{{ trip.img }}" class="img-responsive img-centered"
+                            <img src="img/trips/{{ trip.img }}" class="img-responsive img-centered"
                                 alt="{{ trip.alt }}">
                             {% if trip.img-copyright %}
-                            <figcaption class="img-copyright"><a href="https://commons.wikimedia.org/wiki/File:Larotonda2009.JPG">© La Rotonda</a> by Marco Bagarella, licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption>
+                            <figcaption class="img-copyright">{{ trip.img-copyright }}</figcaption>
                             {% endif %}
                         </figure>
                         <ul class="list-inline item-details">
@@ -34,16 +34,21 @@
                             </li>
                         </ul>
                         <div class="text-left">
-                        <p>{{ trip.description }}</p>
+                        {{ trip.description }}
                         </div>
+                        <br/>
                         <div class="content text-left">
                             {{ trip.content }}
                         </div>
-                        <!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-                            Close</button> -->
                         <br />
                         {% if trip.sign-up %}
-                            <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Reserve your spot!</a>
+                            <div class="content text-left">
+                                To see a full itinerary and reserve your spot, email travel@italyshiddengems.com by <span class="fw-bold">{{ trip.sign-up }}</span>.
+                            </div>
+                            <br/>
+                            <!-- <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Reserve your spot!</a> -->
+                            <a href="mailto:travel@italyshiddengems.com?subject=Interested%20in%20your%20Sicily%202026%20trip" class="btn btn-primary">Reserve your spot</a>
+                            <br/><br/>
                         {% else %}
                         <div class="content text-left">
                             <h5>Join our mailing list to be alerted when sign-ups open for this trip:</h5>

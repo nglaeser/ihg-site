@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 img: amalfi.jpg
 thumbnail: amalfi-thumb.jpg
-img-copyright: © <a href="https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_75_(50558355441).jpg">Amalfi Coast (Italy, October 2020)</a> by Bruno Rijsman, licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
+# img-copyright: © <a href="https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_75_(50558355441).jpg">Amalfi Coast (Italy, October 2020)</a> by Bruno Rijsman, licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
 alt: image-alt
 duration: 14 days
 group-size: 8 travelers

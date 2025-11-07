@@ -23,8 +23,8 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 15px;
+    /* line-height: 1.75; */
 }
 
 p.large {
@@ -297,11 +297,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /* background-image: url('{{ site.baseurl }}/img/header-bg.jpg'); */
-    /* background-image: url('{{ site.baseurl }}/img/contact-bg.jpg'); */
-    /* background-image: url('{{ site.baseurl }}/img/header-bg-50opacity.jpg'); */
-    background-image: url('{{ site.baseurl }}/img/header-bg-3.jpg');
-    /* background-image: url('{{ site.baseurl }}/img/header-bg-5-50opacity.jpg'); */
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
 

@@ -58,7 +58,6 @@ section.hero::before {
     z-index: -1;
 }
 section#next-trips::before {
-    /* background-image: url('{{ site.baseurl }}/img/sardegna.jpg'); */
     background-image: url('{{ site.baseurl }}/img/next-trips-bg-50.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,13 +289,13 @@ section.hero .section-heading .intro-lead-in {
 
     height: 10px;
     width: 10px;
-    background-image: url('{{ site.baseurl }}/img/heart.png');
+    background-image: url('{{ site.baseurl }}/img/logos/heart.png');
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: left center;
 }
 .carousel-indicators li {
-    background-image: url('{{ site.baseurl }}/img/heart.png');
+    background-image: url('{{ site.baseurl }}/img/logos/heart.png');
     background-size: auto 100%;
     background-repeat: no-repeat;
     /* background-color: #{{ site.data.template.color.light }};
@@ -305,7 +304,7 @@ section.hero .section-heading .intro-lead-in {
     border-radius: initial;
 }
 .carousel-indicators .active {
-    background-image: url('{{ site.baseurl }}/img/heart.png');
+    background-image: url('{{ site.baseurl }}/img/logos/heart.png');
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
@@ -353,8 +352,13 @@ figure img {
     padding: 10px 0;
 }
 
-/* viewport full width partial fix borrowing from bootstrap 4.0 */
+/*** borrowing from bootstrap 4.0 ***/
+/* viewport full width partial fix  */
 .px-0 {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+/* font-weight bold */
+.fw-bold {
+    font-weight: 700;
 }
