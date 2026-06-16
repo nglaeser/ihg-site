@@ -42,6 +42,13 @@
                         </div>
                         <br />
                         {% if trip.sign-up %}
+                        {% if trip.sign-up == "closed" %}
+                        <div class="content text-left">
+                            <span class="fw-bold red margin-bottom">Sign-ups for this trip are closed.</span>
+                            Join our mailing list to hear about other upcoming trips!
+                            {% include subscribe.html %}
+                        </div>
+                        {% else %}
                         {% if trip.sign-up != 'past' %}
                         <div class="content text-center">
                             Save your spot with a deposit by <span class="fw-bold">{{ trip.sign-up }}</span>!
@@ -52,6 +59,7 @@
                         <a target="_blank" href="https://linktr.ee/italyshiddengems" class="btn btn-primary">Reserve
                             your spot</a>
                         <br /><br />
+                        {% endif %}
                         {% else %}
                         <div class="content text-left">
                             <h5>Join our mailing list to be alerted when sign-ups open for this trip:</h5>

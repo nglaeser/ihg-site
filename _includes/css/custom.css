@@ -26,6 +26,14 @@
     align-items: center;
 }
 
+.red {
+    color: #{{ site.data.template.color.accent }};
+}
+
+.margin-top {
+    margin-top: 10.5px;
+}
+
 section.hero {
     width: 100%;
     text-align: center;
@@ -361,4 +369,25 @@ figure img {
 /* font-weight bold */
 .fw-bold {
     font-weight: 700;
+}
+
+/*** additional newer bootstrap ***/
+#next-trips .row, 
+#portfolio .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+#next-trips .row > [class*='col-'],
+#portfolio .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+/* my fix for new caption problem caused by above  */
+#portfolio .portfolio-item .portfolio-caption, 
+#next-trips .portfolio-item .portfolio-caption {
+    height: 100%;
+    width: 100%;
 }

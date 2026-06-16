@@ -248,6 +248,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    /* top of page navbar */
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -256,6 +257,12 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
+    /* .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    } */
+    /* .navbar-default .navbar-nav > li > a:hover {
+        color: #{{ site.data.template.color.secondary }};
+    } */
 
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -264,15 +271,13 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
 
+    /* navbar after scroll (shrink) */
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #fff;
     }
     .navbar-default.navbar-shrink .navbar-right a {
         color: #{{ site.data.template.color.primary }};
-    }
-    .navbar-default .navbar-nav > li > a {
-        color: #fff;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -295,7 +300,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    /* color: #fff; */
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
@@ -307,6 +312,12 @@ header {
     /* background-color: rgba(33, 33, 33, .5); */
     /* multiply, overlay, screen */
     /* background-blend-mode: screen; */
+    /* background-blend-mode: overlay; */
+
+    /* attempt 2 */
+    color: #{{ site.data.template.color.primary }};
+    background-color: rgba(255, 255, 255, .5);
+    background-blend-mode: screen;
     /* background-blend-mode: overlay; */
 
     -webkit-background-size: cover;

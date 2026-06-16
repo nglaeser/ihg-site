@@ -3,8 +3,8 @@ title: "New Trip"           # name of trip
 trip-date: May 2026         # trip dates
 layout: default             # do not change this
 modal-id: 1                 # sets the display order of the items in the website section
-thumbnail: trip-thumb.jpg   # thumbnail image, aspect ratio 5:4
-img: trip.jpg               # main page image
+thumbnail: trip-thumb.jpg   # thumbnail image, aspect ratio 4:5, resolution 72x72
+img: trip.jpg               # main page image, aspect ratio 4:3, resolution 72x72
 alt:                        # image alt text
 img-copyright:              # image copyright text, if relevant
     # example of a proper copyright attribution (use HTML syntax to include links):
@@ -23,3 +23,5 @@ Trip highlights:
 - Highlight number 2
 - Highlight number 3
 - etc.
+
+All of our tours include stays in 4-plus-star hotels or equivalent, visits led by certified tour guides, and the 24/7 services of your tour manager Laura to ensure a smooth and pleasant trip.
