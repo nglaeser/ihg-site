@@ -41,7 +41,7 @@
                             {{ trip.content }}
                         </div>
                         <br />
-                        {% if trip.sign-up %}
+                        {% if trip.sign-up or trip.early-bird %}
                         {% if trip.sign-up == "closed" %}
                         <div class="content text-left">
                             <span class="fw-bold red margin-bottom">Sign-ups for this trip are closed.</span>
@@ -49,15 +49,25 @@
                             {% include subscribe.html %}
                         </div>
                         {% else %}
+                        {% if trip.early-bird != 'past' %}
+                        <div class="content text-center">
+                            Save your spot now with a deposit! We are offering an <span class="fw-bold">early bird rate until {{ trip.early-bird }}</span>!
+                        </div>
+                        <br />
+                        {% else %}
                         {% if trip.sign-up != 'past' %}
                         <div class="content text-center">
                             Save your spot with a deposit by <span class="fw-bold">{{ trip.sign-up }}</span>!
                         </div>
                         <br />
                         {% endif %}
+                        {% endif %}
                         <!-- <a target="_blank" href="{{ trip.sign-up }}" class="btn btn-primary">Reserve your spot!</a> -->
                         <a target="_blank" href="https://linktr.ee/italyshiddengems" class="btn btn-primary">Reserve
                             your spot</a>
+                        {% if trip.itinerary %}
+                        <a target="_blank" href="{{ trip.itinerary }}" class="btn btn-primary">Itinerary details</a>
+                        {% endif %}
                         <br /><br />
                         {% endif %}
                         {% else %}

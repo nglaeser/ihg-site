@@ -66,12 +66,13 @@ section.hero::before {
     z-index: -1;
 }
 section#next-trips::before {
+    /* background-image: url('{{ site.baseurl }}/img/next-trips-bg.jpg'); */
     background-image: url('{{ site.baseurl }}/img/next-trips-bg-50.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     /* or 0.5 */
-    opacity: 1;
+    opacity: 0.8;
     /* new new */
     /* or primary? */
     background-color: #{{ site.data.template.color.secondary }};

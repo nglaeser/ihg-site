@@ -11,8 +11,11 @@ img-copyright:              # image copyright text, if relevant
     # © <a href="https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_75_(50558355441).jpg">Amalfi Coast (Italy, October 2020)</a> by Bruno Rijsman, licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
 duration: X days            # trip duration
 group-size: X-Y travelers   # number of travelers
+early-bird: Nov 20, 2025    # early bird deposit 
+                            # leave this blank to display normal sign-up info
 sign-up: Nov 20, 2025       # due date for expressing interest (for upcoming trips only)
                             # leave this blank to display a mailing list sign-up instead
+itinerary:                  # link to detailed itinerary
 description: "Lorem ipsum"  # 2-3 sentence description to be shown on the main page
 # IMPORTANT: if a value for any of these fields contains a colon (:), put the value in quotes
 ---
